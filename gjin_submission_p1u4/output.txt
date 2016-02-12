@@ -1,0 +1,97 @@
+1. run the driver of server, then run the driver of the client :
+
+
+Select from one of these opinions: 
+1.Upload Properties file. 
+2.Configure a car. 
+quit.
+
+
+2. input( 1 —— readFileProp.properties —— 1 —- readFileProp1.properties ):
+  (upload file)
+
+1
+Type in the filename: 
+readFileProp.properties
+load successful!!
+1
+Type in the filename: 
+readFileProp1.properties
+load successful!!
+
+
+3. input (2 —- A6):
+  (configure and choose car)
+
+2
+You can choose from one of them! 
+Wagon ZTW
+A6
+A6
+make : BMW, model : A6, baseprice : 30000.0
+
+name : color
+fort kox gold clearcoat metallic , extra cost: 0.0 
+liquid grey clearcoat metallic , extra cost: 0.0 
+infra-red clearcoat , extra cost: 0.0 
+grabber green clearcoat metallic , extra cost: 0.0 
+sangria red clearcoat metallic , extra cost: 0.0 
+french blue clearcoat metallic , extra cost: 0.0 
+twilight blue clearcoat metallic , extra cost: 0.0 
+cd silver clearcoat metallic , extra cost: 0.0 
+pitch black clearcoat , extra cost: 0.0 
+white , extra cost: 0.0 
+choice : null
+
+name : transmission
+automatic , extra cost: 0.0 
+standard , extra cost: -815.0 
+choice : null
+
+name : brakes
+standard , extra cost: 200.0 
+ABS , extra cost: 500.0 
+ABS with advance trac , extra cost: 1800.0 
+choice : null
+
+name : air bags
+present , extra cost: 350.0 
+none , extra cost: 0.0 
+choice : null
+
+name : power moonroof
+present , extra cost: 595.0 
+none , extra cost: 0.0 
+choice : null
+
+
+4. input (white —- standard —— standard —- none —- none ):
+  (select options)
+
+Select the options from : color
+white
+Select the options from : transmission
+standard
+Select the options from : brakes
+standard
+Select the options from : air bags
+none
+Select the options from : power moonroof
+none
+color : white, addtional price: 0.0
+transmission : standard, addtional price: -815.0
+brakes : standard, addtional price: 200.0
+air bags : none, addtional price: 0.0
+power moonroof : none, addtional price: 0.0
+Total price: 29385.0
+
+
+5. input ( quit )
+
+
+quit
+(server and client will stop both)
+
+ps: All the output above are all real, but once you have the wrong input, it will fail as there is no fix method in it. So, take care!!
+
+
